@@ -1,7 +1,6 @@
 
 FROM nginx:latest
 
-USER jenkins
 COPY index.html /usr/share/nginx/html/index.html
 
 
